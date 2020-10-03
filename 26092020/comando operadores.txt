@@ -1,0 +1,74 @@
+Microsoft Windows [Versión 10.0.16299.1087]
+(c) 2017 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Jenny>git --version
+git version 2.28.0.windows.1
+
+C:\Users\Jenny>e:
+
+E:\>cd uccprog2
+
+E:\Uccprog2>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        operadores.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\Uccprog2>git add .
+
+E:\Uccprog2>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   operadores.docx
+
+
+E:\Uccprog2>git commit -m "commit operadores"
+[master 8d14a00] commit operadores
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 operadores.docx
+
+E:\Uccprog2>git log
+commit 8d14a00b631909c450663c87142ef15735166da4 (HEAD -> master)
+Author: JennyD <jfdiaz639@gmail.com>
+Date:   Sat Oct 3 09:58:17 2020 -0500
+
+    commit operadores
+
+commit 35ced3f5901db3c0e19008ac2ac47875a51183d2 (origin/master)
+Author: JennyD <jfdiaz639@gmail.com>
+Date:   Sat Sep 26 15:04:00 2020 -0500
+
+    ejerciciotask
+
+commit e9014177480a516f9703af98da3bb5ac59814d36
+Author: JennyD <jfdiaz639@gmail.com>
+Date:   Sat Sep 12 15:53:49 2020 -0500
+
+    cuarto commit GIT con js para proyecto web
+
+commit a15e6f69b959d580951f0e123976af5e3de8d6b5
+Author: JennyD <jfdiaz639@gmail.com>
+Date:   Sat Sep 12 15:52:38 2020 -0500
+
+    tercer commit GIT con map para proyecto web
+
+commit 72575c3893aac6c529b6dd9f78eb9767f8be5b6a
+Author: JennyD <jfdiaz639@gmail.com>
+Date:   Sat Sep 12 15:46:52 2020 -0500
+
+    segundo commit GIT con map para proyecto web
+
+E:\Uccprog2>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 11.16 KiB | 11.16 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jfdiaz639/Uccprog2.git
+   35ced3f..8d14a00  master -> master
+
+E:\Uccprog2>
