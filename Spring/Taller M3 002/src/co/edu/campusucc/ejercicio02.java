@@ -18,7 +18,7 @@ public class ejercicio02 {
 		int resultado=0;
 		Scanner scan = new Scanner (System.in);
 		
-		System.out.println("Digite el numero para saber si es capicua: ");
+		System.out.println("Digite el numero para sumar sus digitos: ");
 		num=scan.next();
 		inum = Integer.parseInt(num);
 		scan.reset ();

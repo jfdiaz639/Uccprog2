@@ -16,11 +16,11 @@ public class ejercicio02 {
 		int an, bn = 0;
 		Scanner scan = new Scanner (System.in);
 		
-		System.out.println("digitte un numero: ");
+		System.out.println("digite un numero: ");
 		a =scan.next();	
 		an= Integer.parseInt(a);
 		
-		System.out.println("digitte un numero: ");
+		System.out.println("digite un numero: ");
 		b =scan.next();	
 		bn= Integer.parseInt(b);
 		
